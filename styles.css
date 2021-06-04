@@ -1,0 +1,25 @@
+:root{
+    padding: 0;
+}
+body{
+    margin : 0;
+    background-color: white
+
+}
+nav{
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 0;
+    top: 0;
+}
+h4 {
+    color: #49a6e9;
+    padding-left :2rem;
+}
+li{
+    list-style-type: none;
+    text-decoration: none;
+}
+
