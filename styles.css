@@ -1,25 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
 :root{
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
 }
 body{
     margin : 0;
-    background-color: white
-
+    background-color: #F1f5f8;
+    text-transform: capitalize;
+    letter-spacing: 3px;
 }
 nav{
     background-color: white;
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     box-sizing: border-box;
     margin-top: 0;
-    top: 0;
+   
+}
+.nav-center{
+    max-height: 3.2rem;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex:1 1 100px;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1rem;
 }
 h4 {
     color: #49a6e9;
     padding-left :2rem;
 }
+ul{
+    text-align: center;
+}
 li{
     list-style-type: none;
+    display: inline;
     text-decoration: none;
 }
+a{
+    text-decoration: none;
+    color: #222222;
+    margin: 5px;
+    
+}
+.container{
+    text-align: center;
+}
+.container h4{
+    background :#222222;
+    box-sizing: border-box;
+    max-width: 600px;
+    margin: auto;
+    padding: 1rem 1rem; 
+    font-weight: bolder;
+    color: white;
+    border-radius: 10px;
+    font-size: 35px;
+    margin-bottom: 1rem;
+    margin-top: 10rem;
+}
+span{
+    color: #49a6e9;
+}
+.btn{
+    box-sizing: border-box;
+    background: transparent;
+    color: #222222;
+    border:2px solid #222222;
+    padding: 0.7rem 2rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    text-transform: capitalize;
 
+}
