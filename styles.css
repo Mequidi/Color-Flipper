@@ -4,12 +4,14 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
+    --primary-font : 'roboto',sans-serif;
 }
 body{
     margin : 0;
     background-color: #F1f5f8;
     text-transform: capitalize;
     letter-spacing: 3px;
+    font-family: var(--primary-font);
 }
 nav{
     background-color: white;
@@ -54,13 +56,13 @@ a{
 .container h4{
     background :#222222;
     box-sizing: border-box;
-    max-width: 600px;
+    max-width: 700px;
     margin: auto;
-    padding: 1rem 1rem; 
+    padding: 1rem; 
     font-weight: bolder;
     color: white;
     border-radius: 10px;
-    font-size: 35px;
+    font-size: 40px;
     margin-bottom: 1rem;
     margin-top: 10rem;
 }
@@ -68,6 +70,7 @@ span{
     color: #49a6e9;
 }
 .btn{
+    margin-top: 1rem;
     box-sizing: border-box;
     background: transparent;
     color: #222222;
@@ -75,6 +78,7 @@ span{
     padding: 0.7rem 2rem;
     border-radius: 10px;
     font-size: 1.2rem;
-    text-transform: capitalize;
-
-}
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+}  
