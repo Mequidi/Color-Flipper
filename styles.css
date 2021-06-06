@@ -69,6 +69,10 @@ a{
 span{
     color: #49a6e9;
 }
+#btn:hover{
+    background: #222222;
+    color: white; 
+}
 .btn{
     margin-top: 1rem;
     box-sizing: border-box;
@@ -81,4 +85,7 @@ span{
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 3px;
-}  
+    cursor: pointer;
+    transition:all 0.3s linear;
+}
+
